@@ -77,11 +77,27 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative">
-              <img
-                src="/macro-tracking-app.png"
-                alt="MacroTracker App Interface"
-                className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
-              />
+              <div className="w-full max-w-md mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-8 flex items-center justify-center border border-border/50">
+                <div className="text-center space-y-6">
+                  <div className="w-32 h-32 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center mx-auto">
+                    <Target className="w-16 h-16 text-primary" />
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="text-2xl font-bold text-foreground font-[family-name:var(--font-playfair)]">MacroTracker</h3>
+                    <p className="text-muted-foreground">Track your macros with precision and achieve your fitness goals</p>
+                  </div>
+                  <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-1">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <span>Calories</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <div className="w-2 h-2 bg-accent rounded-full"></div>
+                      <span>Macros</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -164,7 +180,9 @@ export default function HomePage() {
                   muscle definition!"
                 </p>
                 <div className="flex items-center gap-3">
-                  <img src="/smiling-fitness-woman-headshot.png" alt="Sarah M." className="w-10 h-10 rounded-full" />
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center text-white font-semibold text-sm">
+                    SM
+                  </div>
                   <div>
                     <div className="font-semibold text-foreground">Sarah M.</div>
                     <div className="text-sm text-muted-foreground">Fitness Enthusiast</div>
@@ -185,7 +203,9 @@ export default function HomePage() {
                   unmatched."
                 </p>
                 <div className="flex items-center gap-3">
-                  <img src="/confident-male-trainer-headshot.png" alt="Mike R." className="w-10 h-10 rounded-full" />
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center text-white font-semibold text-sm">
+                    MR
+                  </div>
                   <div>
                     <div className="font-semibold text-foreground">Mike R.</div>
                     <div className="text-sm text-muted-foreground">Personal Trainer</div>
@@ -206,7 +226,9 @@ export default function HomePage() {
                   journey."
                 </p>
                 <div className="flex items-center gap-3">
-                  <img src="/happy-health-coach.png" alt="Emma L." className="w-10 h-10 rounded-full" />
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center text-white font-semibold text-sm">
+                    EL
+                  </div>
                   <div>
                     <div className="font-semibold text-foreground">Emma L.</div>
                     <div className="text-sm text-muted-foreground">Health Coach</div>
